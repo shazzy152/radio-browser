@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.genres{
+    display :flex;
+    flex-direction : column;
+    height: 150vh;
+    width: 100%;
+}
+.genre-wrap{
+    background-color: rgb(190, 190, 190);
+    border-radius: 25px;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.genre{
+  color: black;
+  font-size: 28px;
+  font-family: 'Aldrich', sans-serif;
+}
+select{
+  padding: 5px 10px;
+  width: 15%;
+  border-radius: 10px;
+  text-align-last: center;
+  font-family: 'Aldrich', sans-serif;
+  cursor: pointer;
+}
+.options{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.station-wrap{
+    min-height:130vh;
+    margin-bottom: 10px;
+    width: 100%;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.station{
+  background-color: rgb(190, 190, 190);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  min-height: 80px;
+  display:flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items: center;
+  flex: 1 1 350px;
+}
+.stationName{
+  padding: 10px;
+  font-size: 20px;
+  flex-wrap: nowrap;
+  font-family: 'Aldrich', sans-serif;
+}
+.player-wrap{
+  padding-bottom: 20px;
+  width: 80%;
+}
+@media only screen and (max-width:768px){
+  .genre-wrap{
+    padding:10px;
+  }
+  select{
+    width: 25%;
+  }
+  .options{
+    font-size: 5px;
+    color: white;
+    background-color: black;
+  }
+  .genre{
+    font-size: 23px;
+  }
+}
+
